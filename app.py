@@ -39,7 +39,7 @@ def make_predictions(model, scaled_data):
 st.title("24-Hour Water Level Forecasting")
 
 st.write("""
-Upload data (last 60 days of Water Level values) as a CSV file. The model will predict the next 24-hour values using the corresponding model.
+Upload data (last 60 hours of Water Level values) as a CSV file. The model will predict the next 24-hour values using the corresponding model.
 """)
 
 # File uploader
